@@ -12,11 +12,17 @@ typings install --save jsonwebtoken
 ## Usage
 
 ```ts
-import {sign, verify} from 'jsonwebtoken';
+import {sign, verify, TokenExpiredError} from 'jsonwebtoken';
 
 const token = sign({ foo: 'bar' }, 'shhhhh');
 
-const decoded = verify(token, 'shhhhh');
+try {
+    const decoded = verify(token, 'shhhhh');
+} catch (err) {
+    if (err instanceof TokenExpiredError) {
+        // do something
+    }
+}
 ```
 
 [More examples](test/test.ts)
