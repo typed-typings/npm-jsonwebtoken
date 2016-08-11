@@ -1,7 +1,8 @@
 {
   "name": "jsonwebtoken",
-  "main": "jsonwebtoken.d.ts",
-  "ambientDependencies": {
-    "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#aee0039a2d6686ec78352125010ebb38a7a7d743"
+  "version": "7.1.8",
+  "main": "index.d.ts",
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160723033700"
   }
 }

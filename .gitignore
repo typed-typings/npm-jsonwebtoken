@@ -1,2 +1,4 @@
 typings/
 .DS_Store
+test/bundle.d.ts
+*.js
