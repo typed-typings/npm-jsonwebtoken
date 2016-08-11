@@ -50,7 +50,7 @@ verify(token, 'wrong-secret', (err, decoded) => {
 // verify a token asymmetric
 cert = fs.readFileSync('public.pem');  // get public key
 verify(token, cert, (err, decoded) => {
-    console.log(decoded.foo) // bar
+    console.log(decoded.foo); // bar
 });
 
 // verify audience
