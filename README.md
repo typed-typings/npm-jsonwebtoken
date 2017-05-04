@@ -1,4 +1,6 @@
 # Typed jsonwebtoken
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-jsonwebtoken.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-jsonwebtoken.svg?branch=master)](https://travis-ci.org/types/npm-jsonwebtoken)
 
 The type definition for [`jsonwebtoken`](https://github.com/auth0/node-jsonwebtoken).
